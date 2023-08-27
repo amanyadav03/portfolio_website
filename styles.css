@@ -1,0 +1,65 @@
+.profile img{
+    padding-left: 10%;
+    height: 400px;
+    width: auto;
+}
+.profile{
+    margin: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 550;
+    text-align: center;
+    
+}
+.git{
+    padding-top: 200px;
+    padding-left: 5%;
+}
+.linkedin{
+    padding-top: 20px;
+    padding-left: 45%;
+    padding-right: 15%;
+}
+.edu{
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+}
+.exp{
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+}
+.connect{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 45%;
+}
+
+ 
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+ @keyframes slideIn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+} 
+
+.profile, .git, .linkedin, .edu, .exp, .connect {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.git, .linkedin {
+    animation: slideIn 2s ease-in-out;
+} 
